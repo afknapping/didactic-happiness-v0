@@ -6,10 +6,19 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "poi",
-    "build": "poi build",
+    "dev": "poi & npm run watch",
+    "build": "npm run generate-styleguide && poi build",
     "report": "poi build --bundle-report",
-    "serve": "serve dist --single"
+    "serve": "serve dist --single",
+    "watch": "npm-watch",
+    "generate-styleguide": "nucleus"
+  },
+  "watch": {
+    "generate-styleguide": {
+        "patterns": "src/components",
+        "extensions": "css,scss",
+        "quiet": false
+    }
   },
   "babel": {
     "presets": [
@@ -26,9 +35,10 @@
     "email": "x@y.z"
   },
   "dependencies": {
-    "offline-plugin": "^4.8.0",
     "normalize.css": "^7.0.0",
+    "npm-watch": "^0.2.0",
     "object-assign": "^4.1.1",
+    "offline-plugin": "^4.8.0",
     "promise-polyfill": "^6.0.2"
   },
   "devDependencies": {

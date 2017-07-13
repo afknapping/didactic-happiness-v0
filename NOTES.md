@@ -37,4 +37,13 @@ that way the components can be changed under the hood without making changes in 
 - info login bereich, email link
 - 
 
-### import all components under filename
+### import all components under filename!
+
+### default libs
+
+- [Cleave.js - Format input text content when you are typing](https://nosir.github.io/cleave.js/)
+- multiselect
+
+### native stuff
+- css grid
+- input validation
