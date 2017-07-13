@@ -26,3 +26,7 @@
   code::before, code::after {
     content: '`';
   }
+
+  h1 {
+  	font-size: 2em;
+  }

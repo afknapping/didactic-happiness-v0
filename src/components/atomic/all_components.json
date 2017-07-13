@@ -1,0 +1,8 @@
+{ "json_list":
+	[
+		{ "name": "headline" },
+		{ "name": "button" },
+		{ "name": "paragraph" }
+	]
+
+}
