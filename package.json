@@ -1,0 +1,41 @@
+{
+  "private": true,
+  "name": "vue-test",
+  "productName": "vue-test",
+  "description": "My cat&#39;s pajamas Vue project",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "poi",
+    "build": "poi build",
+    "report": "poi build --bundle-report",
+    "serve": "serve dist --single"
+  },
+  "babel": {
+    "presets": [
+      [
+        "vue-app",
+        {
+          "useBuiltIns": true
+        }
+      ]
+    ]
+  },
+  "author": {
+    "name": "filtercake",
+    "email": "x@y.z"
+  },
+  "dependencies": {
+    "offline-plugin": "^4.8.0",
+    "normalize.css": "^7.0.0",
+    "object-assign": "^4.1.1",
+    "promise-polyfill": "^6.0.2"
+  },
+  "devDependencies": {
+    "nucleus-styleguide": "^1.1.1",
+    "poi": "^9.0.0",
+    "poi-preset-bundle-report": "^2.0.0",
+    "poi-preset-offline": "^9.0.0",
+    "serve": "^3.1.0"
+  }
+}

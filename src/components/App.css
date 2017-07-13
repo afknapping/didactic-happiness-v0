@@ -1,0 +1,28 @@
+/**
+ * @atom Button
+ * @section Navigation > Buttons
+ * @description
+ *  Buttons for various purposes.
+ * @modifiers
+ *  .button--alert an alert button
+ * @markup
+ *   <button class="button">A button</button>
+ *   <button class="button button--alert">
+ *     An alert button
+ *   </button>
+ */
+
+ body {
+ 	background-color: red;
+ }
+
+  code {
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    font-size: 0.9em;
+    white-space: pre-wrap;
+    color: #2c3e50;
+  }
+
+  code::before, code::after {
+    content: '`';
+  }
